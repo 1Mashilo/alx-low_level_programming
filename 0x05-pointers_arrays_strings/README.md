@@ -1,0 +1,2 @@
+ 
+inters arrays strings

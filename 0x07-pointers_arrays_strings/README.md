@@ -1,2 +1,1 @@
-}
-inters_arrays_strings
+Even more pointers, arrays and strings

@@ -4,7 +4,7 @@
 
 
 /**
- * *string_nconcat - concatenates n bytes of a string to another string
+ *string_nconcat - concatenates n bytes of a string to another string
  *
  *   * @s1: string to append to
  *

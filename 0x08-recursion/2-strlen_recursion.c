@@ -3,10 +3,10 @@
 /**
 * _strlen_recursion - Returns the length of a string using recursion.
 * @s: Pointer to the input string.
-* Description: function calculates the length of the input string 's' recursiv
+* Description:
+* This function calculates the length of the input string 's' recursively.
 * It counts each character until it reaches the null terminator '\0',
 * indicating the end of the string.
-* @s: Pointer to the input string.
 * Return: The length of the string as an integer.
 */
 int _strlen_recursion(char *s)

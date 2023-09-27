@@ -1,109 +1,100 @@
-##C - malloc, free
+# Low-Level Programming in C
 
+This repository contains a collection of C programs that cover various topics in low-level programming. These programs were created as part of my learning journey in C programming. Below is an overview of the topics covered and the corresponding files:
 
-####TASKS
+## Repository Information
 
+- **Repository Name:** [1Mashilo/alx-low_level_programming](https://github.com/1Mashilo/alx-low_level_programming)
+- **Author:** Mashilo
+- **Created:** 27/04/2023
+- **Last Updated:** 27/09/2023
 
-####[0. Float like a butterfly, sting like a bee](0-create_array.c)
+## Topics Covered
 
+### 0x00-hello_world
+- [0x00-hello_world](0x00-hello_world) - A simple "Hello, World!" program in C.
+- [101-quote.c](0x00-hello_world/101-quote.c) - Printing a string to the standard error.
 
-- Write a function that creates an array of chars, and initializes it with a specific char.
+### 0x01-variables_if_else_while
+- [9-print_comb.c](0x01-variables_if_else_while/9-print_comb.c) - Printing combinations of single-digit numbers.
 
+### 0x02-functions_nested_loops
+- [0-memset.c](0x02-functions_nested_loops/0-memset.c) - Implementing the `memset` function.
 
-- Prototype: char *create_array(unsigned int size, char c);
+### 0x03-debugging
+- [3-print_remaining_days.c](0x03-debugging/3-print_remaining_days.c) - Debugging a function to calculate remaining days in a year.
 
-- Returns NULL if size = 0
+### 0x04-more_functions_nested_loops
+- [100-prime_factor.c](0x04-more_functions_nested_loops/100-prime_factor.c) - Finding the largest prime factor of a number.
 
-- Returns a pointer to the array, or NULL if it fails
+### 0x05-pointers_arrays_strings
+- [101-keygen.c](0x05-pointers_arrays_strings/101-keygen.c) - Generating a simple password keygen.
 
+### 0x06-pointers_arrays_strings
+- [102-magic.c](0x06-pointers_arrays_strings/102-magic.c) - Implementing a function with some magical behavior.
 
-####[1. The woman who has no imagination has no wings](1-strdup.c)
+### 0x07-pointers_arrays_strings
+- [8-print_diagsums.c](0x07-pointers_arrays_strings/8-print_diagsums.c) - Printing the sum of the diagonals of a square matrix.
 
+### 0x08-recursion
+- [5-sqrt_recursion.c](0x08-recursion/5-sqrt_recursion.c) - Implementing a function to calculate the square root using recursion.
 
-- Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+### 0x0A-argc_argv
+- [4-add.c](0x0A-argc_argv/4-add.c) - Adding numbers passed as command-line arguments.
 
+### 0x0B-malloc_free
+- [100-argstostr.c](0x0B-malloc_free/100-argstostr.c) - Concatenating command-line arguments into a single string.
 
-- Prototype: char *_strdup(char *str);
+### 0x0C-more_malloc_free
+- [100-realloc.c](0x0C-more_malloc_free/100-realloc.c) - Implementing the `realloc` function.
 
-- The _strdup() function returns a pointer to a new string which is a duplicate of the string str. Memory for the new string is obtained with malloc, and can be freed with free.
+### 0x0D-preprocessor
+- [0x0D. C - Preprocessor](0x0D-preprocessor) - A directory containing preprocessor-related exercises.
 
-- Returns NULL if str = NULL
+### 0x0E-structures_typedef
+- [0x0E. C - Structures, typedef](0x0E-structures_typedef) - A directory containing exercises related to structures and typedef.
 
-- On success, the _strdup function returns a pointer to the duplicated string. It returns NULL if insufficient memory was available
+### 0x0F-function_pointers
+- [100-main_opcodes.c](0x0F-function_pointers/100-main_opcodes.c) - Printing opcodes of its own main function.
 
+### 0x10-variadic_functions
+- [0x10. C - Variadic functions](0x10-variadic_functions) - A directory containing exercises on variadic functions.
 
-#### [2. He who is not courageous enough to take risks will accomplish nothing in life](2-str_concat.c)
+### 0x12-singly_linked_lists
+- [0x12-singly_linked_lists](0x12-singly_linked_lists) - A directory containing singly linked list exercises.
 
+### 0x13-more_singly_linked_lists
+- [0x13-more_singly_linked_lists](0x13-more_singly_linked_lists) - A directory containing more singly linked list exercises.
 
-- Write a function that concatenates two strings.
+### 0x15-file_io
+- [0x15-file_io](0x15-file_io) - A directory containing exercises on file input and output.
 
+## Getting Started
 
-- Prototype: char str_concat(char s1, char s2);
+To get started with this repository, follow these steps:
 
-- The returned pointer should point to a newly allocated space in memory which contains the contents of s1, followed by the contents of s2, and null terminated
+1. **Clone the Repository:** You can clone this repository to your local machine using the following command:
 
-if NULL is passed, treat it as an empty string
+git clone https://github.com/1Mashilo/alx-low_level_programming.git
+Navigate to the Topics: After cloning, explore the repository by navigating to the corresponding directories for each topic. For example, if you want to study the "Variables, If-Else, and While Loops" section, navigate to the 0x01-variables_if_else_while directory.
 
-- The function should return NULL on failure
+Learn and Use: Inside each topic directory, you'll find the relevant C programs and files. These programs are provided as examples and can serve as a reference for your own projects or for educational purposes.
 
+Feel free to modify and build upon the provided code to suit your needs. Learning from and experimenting with these programs is a great way to improve your C programming skills.
 
-####[3. If you even dream of beating me you'd better wake up and apologize](3-alloc_grid.c)
+Contributing
+We welcome contributions from the community to make this repository even better. If you have any of the following to offer:
 
+Suggestions for improvements or enhancements.
+Bug fixes or corrections to existing code.
+Additional code or exercises related to low-level programming in C.
+Please consider contributing by following these steps:
 
-- Write a function that returns a pointer to a 2 dimensional array of integers.
+Open an Issue: If you have an idea for an improvement, a bug report, or a feature request, open an issue on this repository. Describe the issue or your proposed changes in detail.
 
+Create a Pull Request: If you're ready to contribute code changes, fork this repository, create a branch for your changes, and then submit a pull request. Ensure that your code is well-documented and adheres to best practices.
 
-- Prototype: int **alloc_grid(int width, int height);
+By contributing, you help maintain and enhance the quality of this repository for everyone. We appreciate your input!
 
-- Each element of the grid should be initialized to 0
-
-- The function should return NULL on failure
-
-- If width or height is 0 or negative, return NULL
-
-
-####[4. It's not bragging if you can back it up](4-free_grid.c)
-
-
-Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
-
-
-Prototype: void free_grid(int **grid, int height);
-
-Note that we will compile with your alloc-grid.c file. Make sure it compiles.
-
-
-####[5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](100-argstostr.c)
-
-
-- Write a function that concatenates all the arguments of your program.
-
-
-- Prototype: char *argstostr(int ac, char **av);
-
-- Returns NULL if ac == 0 or av == NULL
-
-- Returns a pointer to a new string, or NULL if it fails
-
-- Each argument should be followed by a \n in the new string  
-
-
-####[6. I will show you how great I am] (101-strtow.c)
-
-
-- Write a function that splits a string into words.
-
-
-- Prototype: char **strtow(char *str);
-
-- The function returns a pointer to an array of strings (words)
-
-- Each element of this array should contain a single word, null-terminated
-
-- The last element of the returned array should be NULL
-
-- Words are separated by spaces
-
-- Returns NULL if str == NULL or str == ""
-
-- If your function fails, it should return NULL
+License
+This project is licensed under the MIT License. You can find the full license details in the LICENSE file in the repository.

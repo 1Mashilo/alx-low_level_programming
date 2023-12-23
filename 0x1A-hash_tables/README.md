@@ -6,7 +6,7 @@ x1A. C - Hash tables
 
 
 Resources
----------
+--------
 
 **Read or watch**:
 

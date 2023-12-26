@@ -1,12 +1,11 @@
 # Low-Level Programming - Data Structures, Algorithms, Linux/Unix System Programming
 
 ## Description
-This repository contains programs written for the low-level programming and
-algorithm section .
+Welcome to the repository dedicated to Low-Level Programming within the ALX Software Engineering Program. This collection encompasses a series of rigorous projects focused on mastering fundamental concepts such as data structures, algorithms, and Linux/Unix system programming.
 
 
 ## Structure
-
+Explore a structured journey through the essentials of low-level programming:
 
 * [0x00. C - Hello, World](./0x00-hello_world)
 * [0x01. C - Variables, if, else, while](./0x01-variables_if_else_while)

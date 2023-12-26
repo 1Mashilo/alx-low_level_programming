@@ -57,7 +57,7 @@ To access any project you are willing to view , please proceed like this:
 
 
 
-        - git clone https://github.com/Pericles001/alx-low_level_programming
+        - git clone https://github.com/1Mashilo/alx-low_level_programming
         - cd alx-low_level_programming
 
 
